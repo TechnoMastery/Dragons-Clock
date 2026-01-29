@@ -15,9 +15,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Properties;
 
-@Mod(modId = ExampleMod.MOD_ID, version = "1.0", compatibleVersions = {"6.1"})
+@Mod(modId = ExampleMod.MOD_ID, version = "1.0", compatibleVersions = {"6.3"})
 public class ExampleMod {
-    public static final String MOD_ID = "yourmodid";
+    public static final String MOD_ID = "dragons_clock";
 
     public ExampleMod() {
         ModEventBus modEventBus = PotoFluxLoadingContext.get().getModEventBus();
