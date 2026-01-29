@@ -3,7 +3,7 @@ package net.minheur.dragons_clock.tabs.all;
 import net.minheur.potoflux.screen.tabs.BaseTab;
 import net.minheur.potoflux.translations.Translations;
 
-public class YourTabClass extends BaseTab {
+public class DragonClockLobby extends BaseTab {
     @Override
     protected void setPanel() {
         // add here content
@@ -11,6 +11,6 @@ public class YourTabClass extends BaseTab {
 
     @Override
     protected String getTitle() {
-        return Translations.get("yourmodid:tabs.yourTab.title");
+        return Translations.get("dragons_clock:tabs.dragonsClockLobby.title");
     }
 }

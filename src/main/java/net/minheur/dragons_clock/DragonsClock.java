@@ -8,18 +8,18 @@ import net.minheur.potoflux.loader.mod.events.RegisterLangEvent;
 import net.minheur.potoflux.logger.LogCategories;
 import net.minheur.potoflux.logger.PtfLogger;
 import net.minheur.dragons_clock.tabs.Tabs;
-import net.minheur.dragons_clock.translations.ExampleModTranslations;
+import net.minheur.dragons_clock.translations.DragonsClockTranslations;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Properties;
 
-@Mod(modId = ExampleMod.MOD_ID, version = "1.0", compatibleVersions = {"6.3"})
-public class ExampleMod {
+@Mod(modId = DragonsClock.MOD_ID, version = "1.0", compatibleVersions = {"6.3"})
+public class DragonsClock {
     public static final String MOD_ID = "dragons_clock";
 
-    public ExampleMod() {
+    public DragonsClock() {
         ModEventBus modEventBus = PotoFluxLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(Tabs::register);
@@ -27,7 +27,7 @@ public class ExampleMod {
     }
 
     private void onRegisterLang(RegisterLangEvent event) {
-        event.registerLang(new ExampleModTranslations());
+        event.registerLang(new DragonsClockTranslations());
     }
 
     public static Path getModDir() {
@@ -41,7 +41,7 @@ public class ExampleMod {
     public static String getVersion() {
         try {
             Properties props = new Properties();
-            props.load(ExampleMod.class.getResourceAsStream("/modVersion.properties"));
+            props.load(DragonsClock.class.getResourceAsStream("/modVersion.properties"));
 
             return props.getProperty("version");
         } catch (IOException e) {
