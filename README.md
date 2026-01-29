@@ -1,2 +1,2 @@
 # Dragon's Clock
-A video game from magaco
+Designed by magaco, developed by Minheur2000
