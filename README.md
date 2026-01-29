@@ -1,2 +1,2 @@
-# PotoFlux mod template
-An easy way to get a start for making PotoFlux mods
+# Dragon's Clock
+A video game from magaco

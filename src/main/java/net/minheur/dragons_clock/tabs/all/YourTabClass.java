@@ -1,4 +1,4 @@
-package your.packagename.tabs.all;
+package net.minheur.dragons_clock.tabs.all;
 
 import net.minheur.potoflux.screen.tabs.BaseTab;
 import net.minheur.potoflux.translations.Translations;

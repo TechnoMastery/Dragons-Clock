@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'your.packagename'
+group = 'net.minheur.dragons_clock'
 version = '1.0'
 
 repositories {

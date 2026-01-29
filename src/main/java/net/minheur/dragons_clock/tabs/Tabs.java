@@ -1,12 +1,12 @@
-package your.packagename.tabs;
+package net.minheur.dragons_clock.tabs;
 
+import net.minheur.dragons_clock.ExampleMod;
 import net.minheur.potoflux.loader.mod.events.RegisterTabsEvent;
 import net.minheur.potoflux.registry.RegistryList;
 import net.minheur.potoflux.screen.tabs.Tab;
 import net.minheur.potoflux.translations.Translations;
 import net.minheur.potoflux.utils.ressourcelocation.ResourceLocation;
-import your.packagename.ExampleMod;
-import your.packagename.tabs.all.YourTabClass;
+import net.minheur.dragons_clock.tabs.all.YourTabClass;
 
 public class Tabs {
     private final RegistryList<Tab> LIST = new RegistryList<>();

@@ -1,7 +1,7 @@
-package your.packagename.translations;
+package net.minheur.dragons_clock.translations;
 
+import net.minheur.dragons_clock.ExampleMod;
 import net.minheur.potoflux.translations.AbstractTranslationsRegistry;
-import your.packagename.ExampleMod;
 
 public class ExampleModTranslations extends AbstractTranslationsRegistry {
     public ExampleModTranslations() {

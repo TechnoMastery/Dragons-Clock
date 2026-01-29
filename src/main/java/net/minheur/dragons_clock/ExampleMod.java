@@ -1,4 +1,4 @@
-package your.packagename;
+package net.minheur.dragons_clock;
 
 import net.minheur.potoflux.PotoFlux;
 import net.minheur.potoflux.loader.PotoFluxLoadingContext;
@@ -7,8 +7,8 @@ import net.minheur.potoflux.loader.mod.ModEventBus;
 import net.minheur.potoflux.loader.mod.events.RegisterLangEvent;
 import net.minheur.potoflux.logger.LogCategories;
 import net.minheur.potoflux.logger.PtfLogger;
-import your.packagename.tabs.Tabs;
-import your.packagename.translations.ExampleModTranslations;
+import net.minheur.dragons_clock.tabs.Tabs;
+import net.minheur.dragons_clock.translations.ExampleModTranslations;
 
 import java.io.IOException;
 import java.nio.file.Files;
