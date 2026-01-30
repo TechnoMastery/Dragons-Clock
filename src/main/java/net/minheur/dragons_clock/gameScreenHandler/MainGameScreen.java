@@ -1,4 +1,4 @@
-package net.minheur.dragons_clock.game;
+package net.minheur.dragons_clock.gameScreenHandler;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;

@@ -2,7 +2,7 @@ package net.minheur.dragons_clock.gameUtils;
 
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
-import net.minheur.dragons_clock.game.DragonsClockGame;
+import net.minheur.dragons_clock.gameScreenHandler.DragonsClockGame;
 import net.minheur.potoflux.logger.PtfLogger;
 
 public class GameLauncher {
